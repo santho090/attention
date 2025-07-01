@@ -1,0 +1,41 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.pkl
+*.h5
+*.ckpt
+
+# Virtual environments
+transformer_env/
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Training logs and outputs
+logs/
+outputs/
+runs/
+wandb/
+
+# Data files (if large)
+data/
+datasets/
